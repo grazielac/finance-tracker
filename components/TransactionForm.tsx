@@ -39,6 +39,7 @@ function TransactionForm() {
 
   return (
     <div className="flex gap-2">
+      <h1>TRANSACTION</h1>
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col">
           <label>Type</label>
